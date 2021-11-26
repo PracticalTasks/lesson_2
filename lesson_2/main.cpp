@@ -31,7 +31,7 @@ int main()
 	//Task 2
 	cout << "\nTask 2\n";
 	vector<int*> vec;
-	for (int i{}; i < 10; ++i)
+	for (int i=0; i < 10; ++i)
 		vec.push_back(new int(rand()%100));
 
 	for (auto& ptr : vec)
